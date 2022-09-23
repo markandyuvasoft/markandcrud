@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import db from '../db/conn.js';
+
 
 const authSchema = new mongoose.Schema({
 

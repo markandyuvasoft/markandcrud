@@ -1,11 +1,10 @@
 import express from 'express'
-import mongoose from 'mongoose'
 import * as path from 'path'
 import bcrypt from 'bcrypt'
 import  Jwt  from 'jsonwebtoken'
 import checkAuth from '../middleware/check-auth.js'
-import db from '../db/conn.js'
 import User from '../models/user.js'
+import mongoose from 'mongoose'
 
 const userrouter=express.Router()
 
